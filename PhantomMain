@@ -1,27 +1,5 @@
-local whitelistedUsers = {
-"F3RNO0O00000", -- Whitelist 1
-"ThatKingJohnathon", -- Whitelist 2
-"Terrionp20", -- Whitelist 3
-"Roman90316", -- Whitelist 4
-"Eil18407", -- Whitelist 5
-}
-
-local function isWhitelisted(username)
-for _, whitelisted in ipairs(whitelistedUsers) do
-  if username == whitelisted then
-    return true
-  end
-end
-return false
-end
-
 local player = game.Players.LocalPlayer
 local username = player.Name
-
-if not isWhitelisted(username) then
-  game.Players.LocalPlayer:Kick("Not Whitelisted.")
-  return
-end
 
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/freshkiwi798/phantomui/main/scriptui", true))
 if not library then
