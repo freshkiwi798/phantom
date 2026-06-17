@@ -1,5 +1,5 @@
 loadstring("local whitelistedUsers = {
-"F3RNO0O00000", -- Whitelist 1
+"mitchgot", -- Whitelist 1
 "ThatKingJohnathon", -- Whitelist 2
 "Terrionp20", -- Whitelist 3
 "Roman90316", -- Whitelist 4
@@ -23,9 +23,9 @@ if not isWhitelisted(username) then
   return
 end
 
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/zrblackout/uisolix//main/solix", true))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/0o0o0o0o0o0o0o0o0o0o0o0o/0o/refs/heads/main/CRUSHER.lua", true))()
 
-local window = library:AddWindow("Phantom Private Killing â F3RN ON TOP ", {
+local window = library:AddWindow("Crusher Private Killing â KTA ON TOP ", {
 main_color = Color3.fromRGB(0, 0, 0),
 min_size = Vector2.new(500, 750),
 can_resize = false,
@@ -2344,9 +2344,9 @@ end
 end)
 
 SpecsTab:AddLabel("Version 1.1.1")
-SpecsTab:AddLabel("Just be better")
-SpecsTab:AddLabel("Made by F3RN")
-SpecsTab:AddLabel("Ez by F3RN")
+SpecsTab:AddLabel("Thank you for using the script!")
+SpecsTab:AddLabel("Made by xXDEATHKINGXx")
+SpecsTab:AddLabel("I hope you like the script, for bugs or suggestions on my discord server")
 SpecsTab:AddLabel("Discord Server:")
 SpecsTab:AddButton("Copy Link", function()
 setclipboard("https://discord.gg/HqjpVJux")
