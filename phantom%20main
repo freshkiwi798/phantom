@@ -1,4 +1,4 @@
-loadstring("local whitelistedUsers = {
+local whitelistedUsers = {
 "F3RNO0O00000", -- Whitelist 1
 "ThatKingJohnathon", -- Whitelist 2
 "Terrionp20", -- Whitelist 3
