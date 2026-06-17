@@ -1,3 +1,4 @@
+local player = game:GetService("Players"):WaitForChild("LocalPlayer")
 local player = game.Players.LocalPlayer
 local username = player.Name
 
