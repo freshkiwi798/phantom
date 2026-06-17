@@ -23,7 +23,7 @@ if not isWhitelisted(username) then
   return
 end
 
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/0o0o0o0o0o0o0o0o0o0o0o0o/0o/refs/heads/main/CRUSHER.lua", true))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/zrblackout/uisolix//main/solix", true))()
 
 local window = library:AddWindow("Phantom Private Killing â F3RN ON TOP ", {
 main_color = Color3.fromRGB(0, 0, 0),
